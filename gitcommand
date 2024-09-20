@@ -1,0 +1,20 @@
+git clone
+cd demo22
+git branch
+cat > filename
+git add . filename
+git config --global user.name "shubham"
+git config --global user.email "abc@gmail.com"
+git commit -m "filename"
+git checkout test 
+git branch
+cat > filename2
+git add . filename2
+git commit -m "filename2"
+git log
+git push -u origin main
+git merge test 
+git checkout main
+please push command after above
+git branch 
+git push -u origin test main
